@@ -1,0 +1,117 @@
+.panel__inferior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.img-panel{
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.img__descripcion{
+    max-width: 100%;
+    height: auto;
+}
+
+.panel-descripcion{
+    display: flex;
+   
+
+    /*flex: 0 0 66.666667%;
+     flex-wrap: wrap;
+    max-width: 66.666667%;*/
+}
+
+.panel__inferior-col-3{
+    flex: 0 0 25%;
+    max-width: 20%;
+    
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.descripcion{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    margin-left: 2%;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffff;
+}
+.menu__descripcion{
+    margin: 0px 50px;
+}
+
+
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.descripcion__titulo{
+    font-size: 28px;
+    margin: 15px 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";    
+    font-weight: 700;
+}
+
+.descripcion__titulo-2{
+    font-size: 28px;
+    margin: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";    
+    font-weight: 700;
+    text-align: center;         
+
+}
+
+.parrafo__1{
+    margin: 0px 10px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: justify;
+}
+
+
+
+
+.horarios{
+    margin: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel__final{
+    background-color: #d0e5fd;
+    padding: 15px;  
+}
+
+.boton_1{
+    margin: 15px;
+}

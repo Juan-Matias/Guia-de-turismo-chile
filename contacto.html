@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS style-->
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="css/banner.css">
+
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/llamada.css">
+    <link rel="stylesheet" href="css/bases.css">
+
+    <link rel="stylesheet" href="css/turismo.css">
+
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- Site Title -->
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="headerPrincipal">
+        <div class="container">
+                <img class="head__logo" src="img/TURISMO-1.png" alt="Logo de turismo">
+
+            <nav class="headerPrincipal-nav">
+                <a class="headerPrincipal-nav-link" href="index.html">Home</a>
+                <a class="headerPrincipal-nav-link" href="index.html">Lugares turisticos</a>
+                <a class="headerPrincipal-nav-link" href="contacto.html">Contactos</a>
+            </nav>
+    </header>
+
+    <main>
+        <form class="formulario-contacto">
+
+            <div class="panel-principal-contacto">
+            <label class="label-text" for="nombreapellido">Nombre y Apellido</label>
+            <input  type="text" id="nombreapellido" class="input-padron" required>
+
+            <label class="label-text" for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label class="label-text" for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label class="label-text" for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+        </div>
+
+        <div class="panel-secundario-contacto" >
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+                
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                
+            </fieldset>
+           
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
+                <select class="tipos-de-horario">
+                    <option>Mañana</option>
+                    <option>Tarde</option>
+                    <option>Noche</option>
+                </select>
+            </fieldset>
+            
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de la Barbería Alura?</label>                
+            
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </div> 
+        </form>
+
+        <footer class="footer container">
+            <img src="img/TURISMO-1.png" alt="Logo de Apeperia" class="footer__logo">
+            <ul class="footer__social">
+                <li><a href="#" class="footer__midia"><img src="img/facebook.png" alt="Ícono de Facebook"></a></li>
+                <li><a href="#" class="footer__midia"><img src="img/instagram.png" alt="Ícono de Instagram"></a></li>
+                <li><a href="#" class="footer__midia"><img src="img/twitter.png" alt="Ícono de Twitter"></a></li>
+        </footer>
+
+       
+    </main>
+</body>
+
+</html>
